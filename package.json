@@ -1,0 +1,16 @@
+{
+  "name": "koa-api-ip",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon ./src/index.js"
+  },
+  "dependencies": {
+    "koa": "^2.13.0",
+    "sucrase": "^3.15.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
