@@ -29,7 +29,7 @@ app.use(async ctx => {
     if (iPhone) {
         platform = "iPhone"
     }
-    // validates if the request was made with an iPhone
+    // validates if the request was made with an Android
     const Android = device.split(/[\s,\?\,\./\(\;\)\:\!]+/).find(word => word === "Android")
     if (Android) {
         platform = "Android"
